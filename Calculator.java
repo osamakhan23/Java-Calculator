@@ -15,7 +15,7 @@ public class Calculator {
       System.out.print("Enter second number: ");
       num2 = input.nextDouble();
 
-      System.out.print("Enter operator (+, -, *, /): ");
+      System.out.print("Enter operator (+, -, *, /, %, ^, sqrt): ");
       operator = input.next().charAt(0);
 
       // Perform calculation based on operator entered
@@ -31,6 +31,15 @@ public class Calculator {
             break;
          case '/':
             result = num1 / num2;
+            break;
+         case '%':
+            result = num1 % num2;
+            break;
+         case '^':
+            result = Math.pow(num1, num2);
+            break;
+         case 's':
+            result = Math.sqrt(num1);
             break;
          default:
             System.out.println("Invalid operator entered!");
