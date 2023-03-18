@@ -39,4 +39,11 @@ The following operators are supported:
 6. Exponentiation (^): raises the first number to the power of the second
 7. Square Root (sqrt): returns the square root of the first number
 
+#UPDATE#
+1. Created a new Java class (e.g. CalculatorGUI) that extends the JFrame class and implements the ActionListener interface. This class will contain the code for creating the GUI and handling user input.
+2. In the CalculatorGUI class, created a JPanel to hold the calculator buttons, and added the buttons to the panel using the GridLayout manager.
+3. Use JTextField to create a text field where the user can enter calculations, and added this to the CalculatorGUI panel.
+4. Created a JButton for each calculator button and add it to the CalculatorGUI panel. Use the ActionListener interface to handle button clicks and update the text field accordingly.
+5. In the main() method of the Calculator class, created an instance of the CalculatorGUI class and set it to be visible.
+6. With these updates, the new calculator program should now have a graphical user interface that allows users to input calculations using buttons and see the results in a text field.
 
